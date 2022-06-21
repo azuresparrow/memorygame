@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+    </style>
+  </head>
+  <body>
+    <h1>Matching Emotes</h1>
+    <h2>Score: <span>0</span></h2>
+
+    <div id="game">
+    </div>
+    <div id="footer">
+      <div id="difficulty">
+        <button id="easy" class="easy">Easy</button>
+        <button id="medium">Medium</button>
+        <button id="hard" class="hard">Hard</button>
+      </div>
+      <div id="win" class="hidden">
+        <h1>You Win!</h1>
+        <button> Play Again?</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
